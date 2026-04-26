@@ -2542,3 +2542,74 @@ select.mobile-device {
 }
 
 
+
+
+/* ===== TABLET FIX (768px) ===== */
+@media (min-width: 768px) and (max-width: 1013px) {
+
+    #about .row {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about .col-md-6 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .message-box {
+        padding: 10px 15px;
+    }
+
+    .message-box h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .message-box p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .sim-btn {
+        display: inline-block;
+        margin: 15px auto;
+    }
+
+    .right-box-pro {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .right-box-pro img {
+        max-width: 80%;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
+/* ===== SERVICES RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    .services-inner-box {
+        margin-bottom: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .services-inner-box h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .services-inner-box p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .ser-icon i {
+        font-size: 30px;
+    }
+}
+
